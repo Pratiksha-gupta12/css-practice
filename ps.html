@@ -4,43 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+
+        
         *{
             margin: 0;
             padding: 0;
         }
-        ul{
+        .nav{
+            height: 70px;
             background-color: black;
-            color: white;
+            
         }
-        .main{
-            background-color: red;
-            color: white;
+        .nav a{
+            color: whitesmoke;
+            text-decoration: none;
+            
         }
-        .image{
-            background-color: palevioletred;
-            background-image: url('feather image.jpeg');
-            width: 344px;
-            height: 1344px;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+        .nav li{
+            display: inline-block;
+              color: whitesmoke;
+            text-decoration: none;
+            margin-top: 3px;
+            padding: 2px;
+        }
 
+        .left{
+            height: 90vh;
+            background-color: red;
+            display: inline-block;
+            width: 50%;
+            /* display: none; */
+            visibility: hidden;
         }
+        
+
+        .right{
+            height: 90vh;
+            background-color: green;
+            display: inline-block;
+            width: 50%;
+            /* display: none;
+            visibility: hidden; */
+        }
+       
+        footer{
+            font-family: "Roboto Condensed", sans-serif;
+            background-color: blue;
+            color: white;
+            height: 20px;
+            text-align: center;
+            padding: 10px;
+            /* margin: 1px; */
+            text-transform: uppercase;
+        }
+
     </style>
 </head>
 <body>
-    <nav>
+    <div class="nav">
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact Us</li>
+            <li><a href="#">Home</a>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">contact</a></li>
         </ul>
-    </nav>
-    <div class="main">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora possimus, vero recusandae doloribus ex eveniet esse officia eum autem doloremque quisquam iure nam reprehenderit commodi nemo dolorum minima iusto dicta. Ratione quam quibusdam omnis!
+
     </div>
-    <div class="image">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora possimus, vero recusandae doloribus ex eveniet esse officia eum autem doloremque quisquam iure nam reprehenderit commodi nemo dolorum minima iusto dicta. Ratione quam quibusdam omnis!
+   <div class="left">
+        Lorem ipsum dolor sit.
+
+
+    </div><div class="right">
+        Lorem ipsum dolor sit.
+
     </div>
+    <footer>
+        copyright &copy; practice set 4
+    </footer>
 </body>
 </html>
