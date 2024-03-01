@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            
+            background-color: black;
+            color: white;
+            height: 70px;
+            /* position: sticky; */
+            top: 0;
+            z-index: 2;
+
+        }
+        li{
+            display: inline;
+        }
+
+        .container{
+            text-align: center;
+            background-color: green;
+            width: 50vw;
+            height: 200vh;
+            color: white;
+            margin: auto;
+            z-index: 3;
+
+        }
+        .box2{
+            background-color: aqua;
+            color: black;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 20px;
+            left:20px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse a culpa facere tenetur soluta minima doloribus necessitatibus non voluptas earum.</p>
+        <div class="box2"><p>
+            This is nothing
+        </p></div>
+    </div>
+</body>
+</html>
